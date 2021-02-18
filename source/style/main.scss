@@ -1,0 +1,18 @@
+// CONFIG
+// ==================================================
+@import './config/reset';
+@import './config/variables';
+@import './config/mixins';
+// FONTS
+// ==================================================
+@font-face {
+    font-family: BebasNeueBold;
+    src: url(../fonts/bebas_neue.ttf);
+}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+// COMPONENTS
+// ==================================================
+@import './components/header';
+// ADAPTIVE
+// ==================================================
+@import './config/media';

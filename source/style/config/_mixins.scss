@@ -1,0 +1,16 @@
+@mixin  logo__light {
+    display: flex;
+    font-family: BebasNeueBold;
+    font-size: 3em;
+    color: #FFFFFF;
+}
+
+@mixin triangle-logo-light {
+    width: 0;
+    height: 0;
+    margin: 0.07em 0.05em;
+    
+    border-top: 0.4em solid transparent;
+    border-right: 0.3em solid #00A4E5;
+    border-bottom: 0.4em solid transparent;
+}

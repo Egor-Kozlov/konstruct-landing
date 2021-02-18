@@ -1,0 +1,61 @@
+/* fonts 
+font-family: 'Open Sans', sans-serif;
+font-family: BebasNeueBold;
+=========================================================*/
+body {
+    font-size: 10px;
+}
+
+.header {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    background: url(../img/backgrounds/tower_background.png) center no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.logo-light {
+    @include logo__light;
+    padding-top: 5vh;
+}
+
+.triangle-logo-light {
+   @include triangle-logo-light;
+}
+
+.container__title {
+    font-family: BebasNeueBold;
+    font-size: 6em;
+    line-height: 70px;
+    letter-spacing: 5.70937px;
+    color: #FFFFFF;
+}
+
+.container__subtitle {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.6em;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.header__scroll-down {
+    margin-bottom: 70px;
+
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.1em;
+    line-height: 15px;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
